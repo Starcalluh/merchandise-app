@@ -3,7 +3,6 @@ Transaction.destroy_all
 
 
 
-
 item_nike = Item.create({ brand: 'Nike', item_name: 'Jacket', quanity: '12', cost: '100.99',})
 item_nike = Item.create({ brand: 'Nike', item_name: 'Shirt', quanity: '14', cost: '45.80',})
 item_nike = Item.create({ brand: 'Nike', item_name: 'Joggers', quanity: '30', cost: '55.33',})
@@ -29,9 +28,9 @@ item_off_white = Item.create({ brand: 'Off-White', item_name: 'Pants', quanity: 
 item_off_white = Item.create({ brand: 'Off-White', item_name: 'Belt', quanity: '30', cost: '10000.99',})
 
 
-transaction = Transaction.create({shipping_location: 'Texas', order_number: 193234, item: item_adidas })
-transaction = Transaction.create({shipping_location: 'Oklahoma', order_number: 195214, item: item_nike})
-transaction = Transaction.create({shipping_location: 'New-York', order_number: 196694, item: item_gucci})
-transaction = Transaction.create({shipping_location: 'Flordia', order_number: 192284, item: item_off_white})
-transaction = Transaction.create({shipping_location: 'Brooklyn', order_number: 197834, item: item_supreme})
-transaction = Transaction.create({shipping_location: 'IDK', order_number: 193442, item: item_fendi})
+# transaction = Transaction.create({shipping_location: 'Texas', order_number: 193234, item: item_adidas })
+# transaction = Transaction.create({shipping_location: 'Oklahoma', order_number: 195214, item: item_nike})
+# transaction = Transaction.create({shipping_location: 'New-York', order_number: 196694, item: item_gucci})
+# transaction = Transaction.create({shipping_location: 'Flordia', order_number: 192284, item: item_off_white})
+# transaction = Transaction.create({shipping_location: 'Brooklyn', order_number: 197834, item: item_supreme})
+# transaction = Transaction.create({shipping_location: 'IDK', order_number: 193442, item: item_fendi})

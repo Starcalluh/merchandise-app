@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_11_12_165342) do
+ActiveRecord::Schema.define(version: 2019_11_13_173003) do
 
   create_table "consumers", force: :cascade do |t|
     t.string "name"
@@ -24,10 +24,9 @@ ActiveRecord::Schema.define(version: 2019_11_12_165342) do
   end
 
   create_table "transactions", force: :cascade do |t|
-    t.string "shipping_location"
-    t.integer "order_number"
     t.integer "item_id"
     t.integer "consumer_id"
+    t.boolean "completed", default: false
   end
 
 end
