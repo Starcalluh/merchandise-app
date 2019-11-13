@@ -26,7 +26,7 @@ ActiveRecord::Schema.define(version: 2019_11_13_173003) do
   create_table "transactions", force: :cascade do |t|
     t.integer "item_id"
     t.integer "consumer_id"
-    t.boolean "completed", default: false
+    t.boolean "completed"
   end
 
 end
