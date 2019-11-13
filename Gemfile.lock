@@ -19,6 +19,7 @@ GEM
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
     equatable (0.6.1)
+    gemfile (0.0.2)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
     i18n (1.1.1)
@@ -81,6 +82,7 @@ PLATFORMS
 DEPENDENCIES
   activerecord
   artii
+  gemfile (~> 0.0.2)
   pry
   rake
   require_all
