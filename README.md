@@ -1,47 +1,16 @@
-# CLI Applications
+#Opening the app
+To install the app you go to https://github.com/Starcalluh/merchandise-app and clone the app.
+You than open up your terminal and run the git clone <link here> command.
+After cloning the lab you need to use the cd command and go to the right directory.
+Once you cd into Merchandise.app you run code . it will than open the app.
 
-### Learning Goals
+#Running the app / using
+In Vs code inside the terminal run ruby index.rb
+This will run the app and prompt you with a welcome message and the name of our "company"
+You type your name in the app and that is your way of logging in.
+It will than pop up a menu with the options to Shop, View your cart, View order hisory or Log out.
+Logging out will take you back to the Welcome message.
+Typing the letter q takes you back to the main menu.
+When viewing your cart you can checkout from there
+If you miss clicked and accidently added a item to cart you can type n and it wont add the item to cart.
 
-- Plan and scope the development of an application
-- Use TTY Prompt to get data from the user 
-- Use RestClient to get data from the internet
-
-### Planning
-
-###### User Stories
-* As a user I can see my tickets
-* As a user I can purchase a ticket
-    * With a seat
-* See other passengers who flew with the same airline
-* Cancel a ticket
-
-
-##### MVP
-* As a user I can purchase a ticket
-* As a user I can see my tickets
-
-##### Stretch Goals
-* See other passengers who flew with the same airline
-* As a user I can purchase a ticket
-    * With a seat
-* Cancel a ticket
-* Edit an airline
-
-### Vocabulary
-* CLI
-    * An application that's run from the terminal
-* User Story
-    * "As a user, can do: _"
-* MVP
-    * Minimum Viable Product (features we need)
-* Stretch Goal
-    * Features we would like
-* TTYPrompt
-    * A gem which helps us build pretty interfaces
-* API
-    * A way to get data through the internet
-* RestClient
-    * A gem which helps us ask for data from the internet
-
-<br>
-<br>
