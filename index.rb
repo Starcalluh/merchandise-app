@@ -9,7 +9,7 @@ def clear_logs
 end
 
 def ask_for_q
-    puts "Please press 'q' to return to the main menu."
+    puts "Please press 'q' to return to the main menu.".red
     loop do 
         ch = STDIN.getch
         if ch == "q"
@@ -22,7 +22,7 @@ def welcome
     clear_logs
     a = Artii::Base.new :font => 'slant'
     puts "Greetings From:"
-    puts a.asciify("Gank Merch")
+    puts a.asciify("Gank Merch").cyan
     puts "Where one size fits all."
     log_in
 end
@@ -127,7 +127,7 @@ def add_to_cart(item)
     clear_logs
     Transaction.create(item: item, consumer: $current_user, completed: false)
     clear_logs
-    puts "Item added to cart!"
+    puts "Item added to cart!".green
     ask_for_q
     main_menu
 end

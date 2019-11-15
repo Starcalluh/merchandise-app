@@ -11,3 +11,4 @@ gem 'rest-client'
 gem 'tty-prompt'
 gem 'artii'
 gem "gemfile", "~> 0.0.2"
+gem 'colorize' , '~> 0.8.1'
